@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #FED700;
+
+}
+
+.padding-left{
+
+padding-left: 20px;
+
+}
+
+.margin-bot{
+
+margin-bottom: 20px;
+
+}
+
+.os-simpsons{
+    margin-top: 3cm;
+
+    background-color: #FAC7CC;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+
+.informacoes{
+    background-color: #9B30CC;
+    color: #B6B2B2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contato{
+    background-color: #808019;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagens{
+    background-color: #4971B6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h4 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.footer{    
+    background-color: #FED700;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
