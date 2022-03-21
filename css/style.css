@@ -1,46 +1,46 @@
 .navbar {
     background-color: #FED700;
-
 }
 
-.padding-left{
-
-padding-left: 20px;
-
+.padding-left {
+    padding-left: 20px;
 }
 
-.margin-bot{
-
-margin-bottom: 20px;
-
+.margin-bot {
+    margin-bottom: 20px;
 }
 
-.os-simpsons{
+.os-simpsons {
     margin-top: 3cm;
-
     background-color: #FAC7CC;
     padding-top: 30px;
     padding-bottom: 20px;
-
 }
 
-.informacoes{
+.informacoes {
     background-color: #9B30CC;
     color: #B6B2B2;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.contato{
+.contato {
     background-color: #808019;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.imagens{
+@media (min-width: 1200px) {
+    .img-fluid {
+        width: 1000px;
+        height: 500px;
+    }
+}
+
+.momentos {
     background-color: #4971B6;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 h4 {
@@ -50,10 +50,8 @@ h4 {
     text-align: justify;
 }
 
-.footer{    
+.footer {
     background-color: #FED700;
-
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
