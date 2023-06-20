@@ -2,6 +2,34 @@
     background-color: #FED700;
 }
 
+.navbar-nav .nav-item .nav-link{
+    color: black !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: #f020b8 !important;
+}
+
+.navbar-toggler{
+    border: none  !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 10px #f020b8;
+}
+
+.navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-toggler-icon:hover{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(240, 32, 184, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+#navbarText{ 
+    text-align: center;
+}
+
 .padding-left {
     padding-left: 20px;
 }
@@ -55,3 +83,15 @@ h4 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.footer a:first-child:hover svg g g {
+    fill: #f020b8;
+  }
+  
+  .footer a:last-child:hover svg g g g{
+    fill: #f020b8;
+  }
+
+  .footer a {
+    text-decoration: none;
+  }

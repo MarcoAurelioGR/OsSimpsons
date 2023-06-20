@@ -1,105 +1,301 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
+  <head>
     <title>Aprendendo JavaScript</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="script/bootstrap.min.js"></script>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-            <a class="navbar-brand padding-left" href="#">
-                <img src="imagens/rosquinha.png" alt="Rosquinha-Simpsons" width="120" height="100">
-            </a>
-
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Os-Simpsons">
-                            <h5>Os Simpsons</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Informacoes">
-                            <h5>Informações</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Contato">
-                            <h5>Contato</h5>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#Momentos">
-                            <h5>Momentos</h5>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand padding-left" href="#">
+            <img
+              src="imagens/rosquinha.png"
+              alt="Rosquinha-Simpsons"
+              width="120"
+              height="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#Os-Simpsons">
+                  <h5>Os Simpsons</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Informacoes">
+                  <h5>Informações</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contato">
+                  <h5>Contato</h5>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Momentos">
+                  <h5>Momentos</h5>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
-    <section id="Os-Simpsons">
+    <div class="section-container">
+      <section id="Os-Simpsons">
         <div class="container-fluid text-center os-simpsons">
-            <h3>Os Simpsons</h3>
-            <img src="https://bahiasocial.com.br/wp-content/uploads/2020/07/1_bIXwqtRoRn7MD-U4a6lGiQ.jpeg" onmouseover="OverMouse(this, 'imagens/OsSimpsonsOlhando.png')" onmouseout="OverMouse(this, 'https://bahiasocial.com.br/wp-content/uploads/2020/07/1_bIXwqtRoRn7MD-U4a6lGiQ.jpeg')"
-                alt="Os-Simpsons" class="img-fluid">
-            <h4><small>Simpsons (bra/prt: Os Simpsons) é uma série de animação e sitcom norte-americana criada por Matt Groening para a Fox Broadcasting Company. A série é uma paródia satírica do estilo de vida da classe média dos Estados Unidos (como cultura, sociedade e televisão) e aspectos da condição humana, através da família protagonista, que consiste de Homer Jay Simpson, Marjorie (Marge) Bouvier Simpson, Bartholomew (Bart) Simpson, Elisabeth (Lisa) Marie Simpson e Margareth (Maggie) Simpson, cuja vida se passa na fictícia cidade de Springfield.</small></h4>
+          <h3>Os Simpsons</h3>
+          <img
+            src="https://bahiasocial.com.br/wp-content/uploads/2020/07/1_bIXwqtRoRn7MD-U4a6lGiQ.jpeg"
+            onmouseover="OverMouse(this, 'imagens/OsSimpsonsOlhando.png')"
+            onmouseout="OverMouse(this, 'https://bahiasocial.com.br/wp-content/uploads/2020/07/1_bIXwqtRoRn7MD-U4a6lGiQ.jpeg')"
+            alt="Os-Simpsons"
+            class="img-fluid"
+          />
+          <h4>
+            <small
+              >Simpsons (bra/prt: Os Simpsons) é uma série de animação e sitcom
+              norte-americana criada por Matt Groening para a Fox Broadcasting
+              Company. A série é uma paródia satírica do estilo de vida da
+              classe média dos Estados Unidos (como cultura, sociedade e
+              televisão) e aspectos da condição humana, através da família
+              protagonista, que consiste de Homer Jay Simpson, Marjorie (Marge)
+              Bouvier Simpson, Bartholomew (Bart) Simpson, Elisabeth (Lisa)
+              Marie Simpson e Margareth (Maggie) Simpson, cuja vida se passa na
+              fictícia cidade de Springfield.</small
+            >
+          </h4>
         </div>
-    </section>
+      </section>
 
-    <section id="Informacoes">
+      <section id="Informacoes">
         <div class="container-fluid text-center informacoes">
-            <h3>Informações</h3>
-            <img src="https://www.hypeness.com.br/1/2019/11/simpsons-700.jpg" onmouseover="OverMouse(this, 'imagens/HomerTrabalhando.png')" onmouseout="OverMouse(this, 'https://www.hypeness.com.br/1/2019/11/simpsons-700.jpg')" alt="Homer no Telefone" class="img-fluid">
-            <h4><small>The Simpsons é amplamente considerada como uma das maiores séries de televisão de todos os tempos. A edição da revista Time publicada em 31 de dezembro de 1999 classificou a série como a melhor do século XX, e em 14 de janeiro de 2000, a animação foi homenageada com uma estrela na Calçada da Fama de Hollywood, na Califórnia. A série já venceu inúmeros prêmios desde a sua estreia, incluindo 31 Primetime Emmy Awards, 30 prêmios Annie e um prêmio Peabody. A expressão utilizada por Homer, "D'oh", foi incluída no Oxford English Dictionary, enquanto a série tem influenciado várias sitcoms direcionadas ao público adulto.</small></h4>
+          <h3>Informações</h3>
+          <img
+            src="https://www.hypeness.com.br/1/2019/11/simpsons-700.jpg"
+            onmouseover="OverMouse(this, 'imagens/HomerTrabalhando.png')"
+            onmouseout="OverMouse(this, 'https://www.hypeness.com.br/1/2019/11/simpsons-700.jpg')"
+            alt="Homer no Telefone"
+            class="img-fluid"
+          />
+          <h4>
+            <small
+              >The Simpsons é amplamente considerada como uma das maiores séries
+              de televisão de todos os tempos. A edição da revista Time
+              publicada em 31 de dezembro de 1999 classificou a série como a
+              melhor do século XX, e em 14 de janeiro de 2000, a animação foi
+              homenageada com uma estrela na Calçada da Fama de Hollywood, na
+              Califórnia. A série já venceu inúmeros prêmios desde a sua
+              estreia, incluindo 31 Primetime Emmy Awards, 30 prêmios Annie e um
+              prêmio Peabody. A expressão utilizada por Homer, "D'oh", foi
+              incluída no Oxford English Dictionary, enquanto a série tem
+              influenciado várias sitcoms direcionadas ao público adulto.</small
+            >
+          </h4>
         </div>
-    </section>
+      </section>
 
-    <section id="Contato">
+      <section id="Contato">
         <div class="container-fluid text-center contato">
-            <h3>Contato</h3>
-            <img src="https://i.gifer.com/RX8N.gif" alt="Contato" class="img-fluid">
-            <h4><small>Como último exemplo de problemas de continuidade, cabe mencionar os números de telefone da família Simpson. Antes do episódio "Simpson e Dalila", o número de casa era 555-6528, depois dele, passou a ser 555-7334. O mesmo vale para o telefone do trabalho de Homer. Antes do episódio era 555-6832 e depois virou 555-6754.</small></h4>
+          <h3>Contato</h3>
+          <img
+            src="https://i.gifer.com/RX8N.gif"
+            alt="Contato"
+            class="img-fluid"
+          />
+          <h4>
+            <small
+              >Como último exemplo de problemas de continuidade, cabe mencionar
+              os números de telefone da família Simpson. Antes do episódio
+              "Simpson e Dalila", o número de casa era 555-6528, depois dele,
+              passou a ser 555-7334. O mesmo vale para o telefone do trabalho de
+              Homer. Antes do episódio era 555-6832 e depois virou
+              555-6754.</small
+            >
+          </h4>
         </div>
-    </section>
-
+      </section>
+    </div>
     <section id="Momentos">
-        <div class="container-fluid text-center momentos">
-            <h3>Momentos</h3>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 margin-bot">
-                        <img src="http://4.bp.blogspot.com/-YN6TrQWyMUU/Tut3w7AlchI/AAAAAAAAADo/exB2lwA0mso/s1600/imagem.bmp" alt="Simpsons Natal no Futuro" width="100%">
-                    </div>
-                    <div class="col-sm-4 margin-bot">
-                        <img src="https://www.the-sun.com/wp-content/uploads/sites/6/2021/01/NINTCHDBPICT000631765517.jpg" alt="Lisa em um Discurso Presidencial" width="100%">
-                    </div>
-                    <div class="col-sm-4 margin-bot">
-                        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2020/07/most-wholesome-moments-simpsons-21-5f0459f28babd-png__700.jpg" alt="Irma Favorita do Bart" width="100%">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 margin-bot">
-                        <img src="imagens/homer-trabalhando.jpg" onmouseover="OverMouse(this, 'imagens/Trabalho.png')" onmouseout="OverMouse(this, 'imagens/homer-trabalhando.jpg')" alt="Homer Trabalhando" width="100%">
-                    </div>
-                    <div class="col-sm-6 margin-bot">
-                        <img src="imagens/homer-trabalhando-por-meggie.jpg" alt="Homer Trabalhando por Maggie" width="100%">
-                    </div>
-                </div>
+      <div class="container-fluid text-center momentos">
+        <h3>Momentos</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 margin-bot">
+              <img
+                src="http://4.bp.blogspot.com/-YN6TrQWyMUU/Tut3w7AlchI/AAAAAAAAADo/exB2lwA0mso/s1600/imagem.bmp"
+                alt="Simpsons Natal no Futuro"
+                width="100%"
+              />
             </div>
+            <div class="col-sm-4 margin-bot">
+              <img
+                src="https://www.the-sun.com/wp-content/uploads/sites/6/2021/01/NINTCHDBPICT000631765517.jpg"
+                alt="Lisa em um Discurso Presidencial"
+                width="100%"
+              />
+            </div>
+            <div class="col-sm-4 margin-bot">
+              <img
+                src="https://static.boredpanda.com/blog/wp-content/uploads/2020/07/most-wholesome-moments-simpsons-21-5f0459f28babd-png__700.jpg"
+                alt="Irma Favorita do Bart"
+                width="100%"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 margin-bot">
+              <img
+                src="imagens/homer-trabalhando.jpg"
+                onmouseover="OverMouse(this, 'imagens/Trabalho.png')"
+                onmouseout="OverMouse(this, 'imagens/homer-trabalhando.jpg')"
+                alt="Homer Trabalhando"
+                width="100%"
+              />
+            </div>
+            <div class="col-sm-6 margin-bot">
+              <img
+                src="imagens/homer-trabalhando-por-meggie.jpg"
+                alt="Homer Trabalhando por Maggie"
+                width="100%"
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer class="footer text-center">
-        Desenvolvido por Marco Aurélio §GR
+      <a
+        href="https://github.com/MarcoAurelioGR/AulaJavaScript"
+        target="_blank"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0,0,256,256"
+          width="48px"
+          height="48px"
+          fill-rule="nonzero"
+        >
+          <g
+            fill="#fed700"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+          >
+            <path d="M0,256v-256h256v256z" id="bgRectangle"></path>
+          </g>
+          <g
+            fill="#000000"
+            fill-rule="nonzero"
+            stroke="none"
+            stroke-width="1"
+            stroke-linecap="butt"
+            stroke-linejoin="miter"
+            stroke-miterlimit="10"
+            stroke-dasharray=""
+            stroke-dashoffset="0"
+            font-family="none"
+            font-weight="none"
+            font-size="none"
+            text-anchor="none"
+            style="mix-blend-mode: normal"
+          >
+            <g transform="scale(4,4)">
+              <path
+                d="M32,10c-12.15,0 -22,9.85 -22,22c0,12.15 9.85,22 22,22c12.15,0 22,-9.85 22,-22c0,-12.15 -9.85,-22 -22,-22zM32,14c9.941,0 18,8.059 18,18c0,8.23871 -5.54128,15.16934 -13.0957,17.30664c-0.0928,-0.19124 -0.15645,-0.40072 -0.15039,-0.63867c0.031,-1.209 0,-4.03041 0,-5.06641c0,-1.778 -1.125,-3.03906 -1.125,-3.03906c0,0 8.82422,0.09959 8.82422,-9.31641c0,-3.633 -1.89844,-5.52539 -1.89844,-5.52539c0,0 0.9973,-3.87844 -0.3457,-5.52344c-1.505,-0.163 -4.20056,1.43755 -5.35156,2.18555c0,0 -1.82342,-0.74805 -4.85742,-0.74805c-3.034,0 -4.85742,0.74805 -4.85742,0.74805c-1.151,-0.748 -3.84656,-2.34755 -5.35156,-2.18555c-1.342,1.645 -0.3457,5.52344 -0.3457,5.52344c0,0 -1.89844,1.89044 -1.89844,5.52344c0,9.416 8.82422,9.31836 8.82422,9.31836c0,0 -1.00476,1.14381 -1.10547,2.7832c-0.58969,0.20793 -1.39349,0.45313 -2.16016,0.45313c-1.85,0 -3.25548,-1.79691 -3.77148,-2.62891c-0.508,-0.821 -1.54948,-1.50977 -2.52148,-1.50977c-0.64,0 -0.95312,0.3215 -0.95312,0.6875c0,0.366 0.89823,0.62083 1.49023,1.29883c1.248,1.43 1.22488,4.64648 5.67188,4.64648c0.5258,0 1.47056,-0.1211 2.22461,-0.22461c-0.00417,1.00955 -0.0159,1.97778 0,2.59766c0.00586,0.23869 -0.05897,0.44894 -0.15234,0.64063c-7.55349,-2.1379 -13.09375,-9.0686 -13.09375,-17.30664c0,-9.941 8.059,-18 18,-18z"
+              ></path>
+            </g>
+          </g>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/marcoaureliogr/" target="_blank">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0,0,256,256"
+          width="50px"
+          height="50px"
+          fill-rule="nonzero"
+        >
+          <g transform="translate(51.2,51.2) scale(0.6,0.6)">
+            <g
+              fill="#fed700"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <path
+                d="M-85.33333,341.33333v-426.66667h426.66667v426.66667z"
+                id="bgRectangle"
+              ></path>
+            </g>
+            <g
+              fill="#000000"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <g transform="scale(5.12,5.12)">
+                <path
+                  d="M8,3.00977c-3.47,0 -5.99023,2.07945 -5.99023,4.93945c0,2.87 2.58023,5.04102 5.99023,5.04102c3.47,0 5.99023,-2.11961 5.99023,-5.09961c-0.16,-2.87 -2.63023,-4.88086 -5.99023,-4.88086zM3,15c-0.55,0 -1,0.45 -1,1v29c0,0.55 0.45,1 1,1h10c0.55,0 1,-0.45 1,-1v-29c0,-0.55 -0.45,-1 -1,-1zM18,15c-0.55,0 -1,0.45 -1,1v29c0,0.55 0.45,1 1,1h9c0.552,0 1,-0.448 1,-1v-15v-0.25v-0.25c0,-2.37 1.82062,-4.30047 4.14063,-4.48047c0.12,-0.02 0.23938,-0.01953 0.35938,-0.01953c0.12,0 0.23938,-0.00047 0.35938,0.01953c2.32,0.18 4.14063,2.11047 4.14063,4.48047v15.5c0,0.552 0.448,1 1,1h9c0.55,0 1,-0.45 1,-1v-17c0,-6.47 -3.47094,-13 -11.21094,-13c-3.52,0 -6.17906,1.36023 -7.78906,2.49023v-1.49023c0,-0.55 -0.45,-1 -1,-1z"
+                ></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
     </footer>
 
     <script src="script/script.js"></script>
-</body>
-
+  </body>
 </html>
